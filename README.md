@@ -3,7 +3,14 @@ Proyecto Profundización: Estructura de datos
 
 ## Objetivo
 
+El objetivo de este análisis es diseñar e implementar un sistema ETL (Extract, Transform, Load) robusto para Super Store que permita la extracción, transformación y carga eficiente de datos desde diversas fuentes en un almacén de datos estructurado con tablas de hecho y dimensiones. Este sistema tiene como finalidad optimizar el almacenamiento de datos y mejorar la capacidad de la empresa para identificar patrones, tendencias y oportunidades de mercado, lo que le permitirá adaptarse rápidamente a cambios en la demanda, mejorar la eficiencia operativa, y mantener una ventaja competitiva en el mercado.
+
 ## Herramientas y Lenguajes
+
+- Google BigQuery
+- Google Colab
+- Power BI o Python en Google Colab.
+- Lenguaje SQL en BigQuery, y Python en Google Colab 
 
 ### Revisión de Nulos
 Puedes revisar la consulta [aquí](SQL/nulls.sql).
