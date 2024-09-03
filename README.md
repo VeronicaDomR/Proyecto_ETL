@@ -12,12 +12,12 @@ El objetivo de este análisis es diseñar e implementar un sistema ETL (Extract,
 - Power BI o Python en Google Colab.
 - Lenguaje SQL en BigQuery, y Python en Google Colab 
 
-### Revisión de Nulos
+## Revisión de Nulos
 Puedes revisar la consulta [aquí](SQL/nulls.sql).
 
 Tras realizar un análisis exhaustivo del dataset superstore, no se encontraron valores nulos en ninguna de las variables. 
 
-### Revisión de Duplicados
+## Revisión de Duplicados
 
 Durante el análisis de nuestro dataset, se identificó que varias variables se repiten en la tabla. 
 Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
@@ -25,7 +25,7 @@ Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
 Sin embargo, para obtener un conteo preciso de duplicados, es crucial separar los datos por país. Esto se debe a que el customer_ID varía según el país, lo que significa que un mismo customer_ID puede representar clientes diferentes en países distintos.
 Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
 
-### Normalización de Datos Categóricos
+## Normalización de Datos Categóricos
 Puedes revisar la consulta [aquí](python/normalizacion_datos_categoricos.ipynb)
 1. **Estandarización de Textos:**
 
@@ -53,3 +53,5 @@ La columna category se codificó en valores numéricos:
 5. **Conversión de Fechas:**
 
 Las columnas order_date y ship_date se convirtieron al formato de fecha estándar para facilitar su análisis.
+
+## Normalización de Datos Númericos
