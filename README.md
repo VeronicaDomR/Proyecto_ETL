@@ -55,6 +55,7 @@ La columna category se codificó en valores numéricos:
 Las columnas order_date y ship_date se convirtieron al formato de fecha estándar para facilitar su análisis.
 
 ## Normalización de Datos Númericos
+Puedes revisar la consulta [aquí](python/normalizacion_datos_categoricos.ipynb)
 
 - **Resumen Estadístico:** Se generó un resumen estadístico que incluye medidas de tendencia central (media) y dispersión (desviación estándar, mínimo, máximo, etc.) para todas las variables numéricas. Esto proporciona una visión general de la distribución y características básicas de los datos.
 
