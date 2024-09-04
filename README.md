@@ -15,6 +15,7 @@ El objetivo de este análisis es diseñar e implementar un sistema ETL (Extract,
 - Google Colab
 - Power BI o Python en Google Colab.
 - Lenguaje SQL en BigQuery, y Python en Google Colab
+- Drawio
 
 
 ## Revisión de Nulos
