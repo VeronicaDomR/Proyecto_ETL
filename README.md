@@ -94,6 +94,16 @@ Puedes revisar la consulta [aquí](python/normalizacion_datos_categoricos.ipynb)
 ## Web Scraping de la Tabla Multinational
 Se realizó un web scraping para extraer la tabla **Multinational** de la página de Wikipedia [List of Supermarket Chains](https://en.wikipedia.org/wiki/List_of_supermarket_chains). En el proceso, se eliminó la columna **Map** de la tabla.
 
+### Limpieza del Dataset supermarket_chains
+
+- Eliminación de Texto entre Paréntesis: Se eliminó el contenido entre paréntesis en la columna Served_countries para simplificar la información.
+
+- Corrección en Headquarters: Se actualizó la sede de la empresa SHV Holdings a 'The Netherlands'. Esta información se obbtuvo de wikipedia.
+
+- Los valores vacíos en Number_of_locations y Number_of_employees se reemplazaron con 'NA'.
+- Los valores nulos en Served_countries se reemplazaron con el valor correspondiente de Headquarters.
+- Se añadió una columna Number_of_served_countries que cuenta la cantidad de países servidos, basándose en la columna Served_countries.
+
 
 ## Diseño de Tablas de Hecho y Tablas de Dimensiones
 
