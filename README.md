@@ -37,7 +37,7 @@ Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
 
 
 ## Normalización de Datos Categóricos
-Puedes revisar la consulta [aquí](python/normalizacion_datos_categoricos.ipynb)
+Puedes revisar la consulta [aquí](python/ETL.ipynb)
 1. **Estandarización de Textos:**
 
 
@@ -76,7 +76,7 @@ Las columnas order_date y ship_date se convirtieron al formato de fecha estánda
 
 
 ## Normalización de Datos Númericos
-Puedes revisar la consulta [aquí](python/normalizacion_datos_categoricos.ipynb)
+Puedes revisar la consulta [aquí](python/ETL.ipynb)
 
 
 **No se encontraron valores no numéricos en las columnas numéricas.**
