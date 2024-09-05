@@ -108,7 +108,7 @@ Se realizó un web scraping para extraer la tabla **Multinational** de la págin
 ## Diseño de Tablas de Hechos y Tablas de Dimensiones
 
 
-![diagrama](images/Diagrama.png)
+![diagrama](images/Diagrama.jpg)
 
 
 Todas las relaciones mencionadas entre la Tabla de Hechos y las distintas dimensiones son relaciones de uno a muchos. Es decir, un registro en la tabla de dimensión (por ejemplo, un cliente o un producto) puede estar relacionado con múltiples registros en la Tabla de Hechos (múltiples pedidos).
@@ -130,8 +130,46 @@ La columna Headquarters en la tabla supermarket_chains fue renombrada a countrie
     - Se diseñaron las tablas de dimensiones para representar entidades clave, incluyendo Dim Customer, Dim Product, Dim Location, Dim Time, y Dim Company.
     - Se creó una tabla de enlace (superstore_supermarket_link) para manejar la relación muchos a muchos entre la tabla de hechos y las dimensiones de las compañías.
 
+## Diseño del Pipeline de Actualización de Datos
 
+1. Extract → Transform → Load
 
+- **Extraer** los datos necesarios para cada una de las tablas.
+- Asegurar la **transformación** y limpieza de los datos antes de insertarlos en las tablas.
+- **Cargar** los datos en las tablas.
+
+2. Actualiza:
+   - Dimensión Competidores
+   - Dimensión Producto
+   - Dimensión Ubicación
+   - Dimensión Tiempo
+   - Dimensión Envío
+3. Luego:
+   - Tabla de Hechos
+4. Finalmente:
+   - Tabla de Relación (superstore_supermarket_link)
+
+Se actualizan primero las dimensiones que no dependen de otras tablas
+
+**1. Dimensiones sin dependencias:**
+
+- **Dimensión Competidores:** Esta tabla contiene datos de la empresa y puede actualizarse independientemente de otras tablas.
+- **Dimensión Producto:** Contiene los datos de los productos y no tiene dependencias directas de otras tablas.
+- **Dimensión Ubicación:** Tiene información relacionada con la ubicación de los clientes. No depende de otras tablas, por lo que puede actualizarse en paralelo con las dimensiones anteriores.
+
+**2. Dimensiones dependendientes:**
+
+Después de las dimensiones independientes, se deben actualizar aquellas dimensiones que dependen de otras tablas:
+- **Dimensión Tiempo:** Aunque el tiempo no depende directamente de otras dimensiones, se debe actualizar antes de la tabla de hechos, ya que esta usa la fecha para sus registros.
+- **Dimensión Envío:** Esta dimensión debe actualizarse antes de la tabla de hechos, ya que la tabla de hechos hace referencia al ship_mode y shipping_cost.
+
+**3. Tablas de hechos:**
+
+Esta tabla central debe actualizarse una vez que todas las dimensiones estén actualizadas, ya que hace referencia a claves foráneas de varias dimensiones (Cliente, Producto, Ubicación, Tiempo, y Envío).
+
+**4. Tablas de Relación:**
+
+superstore_supermarket_link: Finalmente, esta tabla de relación puede actualizarse después de que la Tabla de Hechos y la dimensión Competidores estén actualizadas, ya que vincula las órdenes con las empresas.
 
 
 
