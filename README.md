@@ -171,5 +171,14 @@ Esta tabla central debe actualizarse una vez que todas las dimensiones estén ac
 
 superstore_supermarket_link: Finalmente, esta tabla de relación puede actualizarse después de que la Tabla de Hechos y la dimensión Competidores estén actualizadas, ya que vincula las órdenes con las empresas.
 
+- **Diagrama del Pipeline en Google Cloud**
+
+1. Datos Crudos (GCS) -> Dataflow (Transformación)
+2. Dimensiones (BigQuery) -> Composer, actualización automatizada de las tablas de dimensiones. 
+3. Tabla de Hechos (BigQuery) -> Composer,  actualización automatizada de las tablas de hechos. 
+4. Relación (BigQuery) -> Composer, actualiza las tablas de relación en BigQuery
+5. Cloud Scheduler (Actualización periódica) -> Trigger, programar las actualizaciones para las tablas.
+
+
 
 
