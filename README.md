@@ -108,7 +108,7 @@ Se realizó un web scraping para extraer la tabla **Multinational** de la págin
 ## Diseño de Tablas de Hecho y Tablas de Dimensiones
 
 
-![diagrama](images/diagrama.jpg)
+![diagrama](images/Diagrama.png)
 
 
 Todas las relaciones mencionadas entre la Tabla de Hechos y las distintas dimensiones son relaciones de uno a muchos. Es decir, un registro en la tabla de dimensión (por ejemplo, un cliente o un producto) puede estar relacionado con múltiples registros en la Tabla de Hechos (múltiples pedidos).
