@@ -105,7 +105,7 @@ Se realizó un web scraping para extraer la tabla **Multinational** de la págin
 - Se añadió una columna Number_of_served_countries que cuenta la cantidad de países servidos, basándose en la columna Served_countries.
 
 
-## Diseño de Tablas de Hecho y Tablas de Dimensiones
+## Diseño de Tablas de Hechos y Tablas de Dimensiones
 
 
 ![diagrama](images/Diagrama.png)
@@ -113,6 +113,22 @@ Se realizó un web scraping para extraer la tabla **Multinational** de la págin
 
 Todas las relaciones mencionadas entre la Tabla de Hechos y las distintas dimensiones son relaciones de uno a muchos. Es decir, un registro en la tabla de dimensión (por ejemplo, un cliente o un producto) puede estar relacionado con múltiples registros en la Tabla de Hechos (múltiples pedidos).
 
+## Crear estructura de la Base de Datos en BigQuery
+
+- **Creación de IDs Únicos:**
+
+Se generaron identificadores únicos (IDs) para facilitar la relación entre las tablas.
+
+- **Cambio de Nombre de Columna:**
+
+La columna Headquarters en la tabla supermarket_chains fue renombrada a countries_headquarters para reflejar con mayor precisión el contenido de la columna.
+
+- **Creación de Tablas en BigQuery:**
+
+    - Se construyó la tabla de hechos (f_hechos), que incluye métricas clave y se conecta con las tablas de dimensiones a través de identificadores únicos.
+
+    - Se diseñaron las tablas de dimensiones para representar entidades clave, incluyendo Dim Customer, Dim Product, Dim Location, Dim Time, y Dim Company.
+    - Se creó una tabla de enlace (superstore_supermarket_link) para manejar la relación muchos a muchos entre la tabla de hechos y las dimensiones de las compañías.
 
 
 
