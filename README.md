@@ -1,33 +1,90 @@
 # Proyecto5_ETL
 Proyecto Profundización: Estructura de datos
 
+## Índice
+
+## Índice
+
+1. [Objetivo](#objetivo)
+2. [Herramientas y Lenguajes](#herramientas-y-lenguajes)
+3. [Revisión de Datos](#revisión-de-datos)
+   - [Revisión de Nulos](#revisión-de-nulos)
+   - [Revisión de Duplicados](#revisión-de-duplicados)
+   - [Corrección Tipográfica](#corrección-tipográfica)
+4. [Proceso de Normalización de Datos](#proceso-de-normalización-de-datos)
+   - [Textos y Categorías](#textos-y-categorías)
+   - [Fechas](#fechas)
+   - [Datos Numéricos](#datos-numéricos)
+5. [Web Scraping](#web-scraping)
+   - [Limpieza del Dataset supermarket_chains](#limpieza-del-dataset-supermarket_chains)
+6. [Diseño del Modelo de Datos](#diseño-del-modelo-de-datos)
+   - [Diseño de Tablas de Hechos y Tablas de Dimensiones](#diseño-de-tablas-de-hechos-y-tablas-de-dimensiones)
+   - [Crear estructura de la Base de Datos en BigQuery](#crear-estructura-de-la-base-de-datos-en-bigquery)
+7. [Pipeline de Datos](#pipeline-de-datos)
+   - [Orden de Actualización](#orden-de-actualización)
+8. [Análisis Exploratorio](#análisis-exploratorio)
+   - [Agrupación y Distribución de Datos según Variables Categóricas](#agrupación-y-distribución-de-datos-según-variables-categóricas)
+   - [Visualización de Variables Categóricas](#visualización-de-variables-categóricas)
+   - [Medidas de Tendencia Central](#medidas-de-tendencia-central)
+   - [Distribución de Datos](#distribución-de-datos)
+   - [Medidas de Dispersión](#medidas-de-dispersión)
+   - [Análisis Temporal](#análisis-temporal)
+9. [Dashboard](#dashboard)
+10. [Resultados](#resultados)
+    - [Segmentos de clientes](#segmentos-de-clientes)
+    - [Productos Comprados a lo Largo del Tiempo (2011-2014)](#productos-comprados-a-lo-largo-del-tiempo-2011-2014)
+    - [Análisis de Rentabilidad por Categoría](#análisis-de-rentabilidad-por-categoría)
+    - [Ventas Totales a lo Largo del Tiempo (2011-2014)](#ventas-totales-a-lo-largo-del-tiempo-2011-2014)
+    - [Comparación de Modos de Envío](#comparación-de-modos-de-envío)
+    - [Distribución de Productos por Categoría y Segmento](#distribución-de-productos-por-categoría-y-segmento)
+    - [Promedio de Costos de Envío por Segmento y Categoría](#promedio-de-costos-de-envío-por-segmento-y-categoría)
+    - [Relación entre Ventas Totales y Ganancias por Segmento](#relación-entre-ventas-totales-y-ganancias-por-segmento)
+11. [Conclusiones](#conclusiones)
+12. [Recomendaciones](#recomendaciones)
+
+
 ## Objetivo
 
 El objetivo de este análisis es diseñar e implementar un sistema ETL (Extract, Transform, Load) robusto para Super Store que permita la extracción, transformación y carga eficiente de datos desde diversas fuentes en un almacén de datos estructurado con tablas de hecho y dimensiones. Este sistema tiene como finalidad optimizar el almacenamiento de datos y mejorar la capacidad de la empresa para identificar patrones, tendencias y oportunidades de mercado, lo que le permitirá adaptarse rápidamente a cambios en la demanda, mejorar la eficiencia operativa, y mantener una ventaja competitiva en el mercado.
 
 ## Herramientas y Lenguajes
 
-- Google BigQuery
-- Google Colab
-- Power BI o Python en Google Colab.
-- Lenguaje SQL en BigQuery, y Python en Google Colab
-- Drawio
+### Herramientas
+- *Google BigQuery*
+- *Google Colab*
+- *Power BI*
+- *Draw.io*
 
-## Revisión de Nulos
+### Lenguajes
+- *SQL*
+- *Python*
+
+## Revisión de Datos
+
+### Revisión de Nulos
 Puedes revisar la consulta [aquí](SQL/nulls.sql).
 
 Tras realizar un análisis exhaustivo del dataset superstore, no se encontraron valores nulos en ninguna de las variables.
 
-## Revisión de Duplicados
+### Revisión de Duplicados
 
 Durante el análisis de nuestro dataset, se identificó que varias variables se repiten en la tabla.
+
 Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
 
 Sin embargo, para obtener un conteo preciso de duplicados, es crucial separar los datos por país. Esto se debe a que el customer_ID varía según el país, lo que significa que un mismo customer_ID puede representar clientes diferentes en países distintos.
+
 Puedes revisar la consulta [aquí](SQL/duplicates_customerID.SQL).
 
-## Normalización de Datos Categóricos
+### Corrección Tipográfica
+Se estandarizaron nombres de ciudades y países, y se normalizaron otras columnas categóricas clave.
+
+
+## Proceso de Normalización de Datos
 Puedes revisar la consulta [aquí](python/ETL.ipynb)
+
+### Textos y Categorías
+
 1. **Estandarización de Textos:**
 
 Se estandarizaron los textos en las columnas category, city, country, order_priority y region, asegurando que la primera letra de cada palabra apareciera en mayúscula.
@@ -67,7 +124,8 @@ Puedes revisar la consulta [aquí](python/ETL.ipynb)
 
 - **Visualización de Datos:** Se crearon boxplots para cada columna numérica. Estos gráficos permiten visualizar la distribución de los datos, identificar tendencias y detectar valores atípicos o anomalías en cada variable.
 
-## Web Scraping de la Tabla Multinational
+## Web Scraping 
+
 Se realizó un web scraping para extraer la tabla **Multinational** de la página de Wikipedia [List of Supermarket Chains](https://en.wikipedia.org/wiki/List_of_supermarket_chains). En el proceso, se eliminó la columna **Map** de la tabla.
 
 ### Limpieza del Dataset supermarket_chains
@@ -80,13 +138,15 @@ Se realizó un web scraping para extraer la tabla **Multinational** de la págin
 - Los valores nulos en Served_countries se reemplazaron con el valor correspondiente de Headquarters.
 - Se añadió una columna Number_of_served_countries que cuenta la cantidad de países servidos, basándose en la columna Served_countries.
 
-## Diseño de Tablas de Hechos y Tablas de Dimensiones
+## Diseño del Modelo de Datos
+
+### Diseño de Tablas de Hechos y Tablas de Dimensiones
 
 ![diagrama](images/Diagrama.jpg)
 
 Todas las relaciones mencionadas entre la Tabla de Hechos y las distintas dimensiones son relaciones de uno a muchos. Es decir, un registro en la tabla de dimensión (por ejemplo, un cliente o un producto) puede estar relacionado con múltiples registros en la Tabla de Hechos (múltiples pedidos).
 
-## Crear estructura de la Base de Datos en BigQuery
+### Crear estructura de la Base de Datos en BigQuery
 
 - **Creación de IDs Únicos:**
 
@@ -103,7 +163,7 @@ La columna Headquarters en la tabla supermarket_chains fue renombrada a countrie
     - Se diseñaron las tablas de dimensiones para representar entidades clave, incluyendo Dim Customer, Dim Product, Dim Location, Dim Time, y Dim Company.
     - Se creó una tabla de enlace (superstore_supermarket_link) para manejar la relación muchos a muchos entre la tabla de hechos y las dimensiones de las compañías.
 
-## Diseño del Pipeline de Actualización de Datos
+## Pipeline de Datos
 
 1. Extract → Transform → Load
 
