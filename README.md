@@ -252,6 +252,31 @@ Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tab
 
 ## Resultados
 
+- **Productos Comprados a lo Largo del Tiempo (2011-2014):**
+
+- **Año 2011:** 9,380 productos comprados.
+- **Año 2012:** 11,659 productos comprados.
+- **Año 2013:** 13,758 productos comprados.
+- **Año 2014:** 16,493 productos comprados.
+Se muestra un crecimiento sostenido en el número de productos comprados entre 2011 y 2014, con un incremento de aproximadamente 76% en el periodo.
+
+- **Análisis de Rentabilidad por Categoría:**
+
+- **Muebles (Furniture):** -5,839 (pérdida).
+- **Suministros de Oficina (Office Supplies):** 1,457,681 de ganancia.
+- **Tecnología (Technology):** 15,616 de ganancia.
+
+La categoría más rentable es "Office Supplies", con una ganancia significativa en comparación con las otras categorías, mientras que "Furniture" genera pérdidas.
+
+- **Ventas Totales a lo Largo del Tiempo (2011-2014):**
+
+- **Año 2011: ** $2,355,770 en ventas.
+- **Año 2012:** $2,922,942 en ventas.
+- **Año 2013:** $3,367,042 en ventas.
+- **Año 2014:** $3,997,151 en ventas.
+
+Se muestra un incremento constante en las ventas, alcanzando un aumento del 69% de 2011 a 2014.
+
 ## Conclusiones
 - **Segmento Consumer** es el más importante en términos de ventas y número de clientes.
 - Las **ganancias y ventas** están en aumento, pero hay que monitorear los costos de envío, ya que aunque parecen estables, cualquier cambio podría impactar negativamente.
