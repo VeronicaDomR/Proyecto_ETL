@@ -204,18 +204,15 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 **2. Visualización de Variables Categóricas**
 
 - Comparación de ventas por categoría de productos a lo largo del tiempo.
+![Graficos](images/comparacion_vtas_categoria.png)
+
 - Evolución de ventas por categoría.
 ![Graficos](images/evolucion_vtas_cat.png)
 
-- Distribución de ventas por modo de envío y segmento.
-- Número de clientes únicos por ciudad y país.
-- Intensidad de ventas por ciudad.
 - Relación entre ventas y ganancias por segmento.
+![Graficos](images/relacion_vtas_Segmento.png)
 
 **3. Medidas de Tendencia Central**
-- Promedio de productos comprados por categoría y segmento.
-- Promedio de ventas por año y categoría.
-- Promedio de beneficios (Profit) por producto.
 - Promedio del costo de envío por categoría.
 ![Graficos](images/Promedio_costo_envio.png)
 - Aplicación de medidas de tendencia central (media, mediana, moda).
@@ -224,8 +221,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 - Distribución del número de pedidos.
 ![Graficos](images/dist_num_pedidos.png)
-
-- Proporción de ventas por categoría y por segmento de producto.
 
 **5. Medidas de Dispersión**
 
@@ -243,11 +238,8 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 - Costos de envío a lo largo del tiempo.
 ![Graficos](images/costos_envios_tiempo.png)
 
-- Análisis de beneficios por producto y categoría en el tiempo.
 - Segmentación de clientes a lo largo del tiempo.
 ![Graficos](images/segmentacion_clientes_tiempo.png)
-
-- Análisis por ubicación (ciudad y país).
 
 - Comparación de modos de envío y su impacto en ventas.
 ![Graficos](images/comparacion_modos_envio.png)
