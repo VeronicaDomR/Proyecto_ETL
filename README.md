@@ -229,12 +229,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 **6. Análisis Temporal**
 
-- Compras realizadas por año.
-![Graficos](images/compras_anuales.png)
-
-- Análisis de productos comprados a lo largo del tiempo.
-![Graficos](images/analisis_prod_comprados_tiempo.png)
-
 - Costos de envío a lo largo del tiempo.
 ![Graficos](images/costos_envios_tiempo.png)
 
@@ -254,6 +248,8 @@ Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tab
 
 - **Productos Comprados a lo Largo del Tiempo (2011-2014):**
 
+![Graficos](images/analisis_prod_comprados_tiempo.png)
+
 - **Año 2011:** 9,380 productos comprados.
 - **Año 2012:** 11,659 productos comprados.
 - **Año 2013:** 13,758 productos comprados.
@@ -262,6 +258,8 @@ Se muestra un crecimiento sostenido en el número de productos comprados entre 2
 
 - **Análisis de Rentabilidad por Categoría:**
 
+![Graficos](images/analisis_rentabilidad.png)
+
 - **Muebles (Furniture):** -5,839 (pérdida).
 - **Suministros de Oficina (Office Supplies):** 1,457,681 de ganancia.
 - **Tecnología (Technology):** 15,616 de ganancia.
@@ -269,6 +267,8 @@ Se muestra un crecimiento sostenido en el número de productos comprados entre 2
 La categoría más rentable es "Office Supplies", con una ganancia significativa en comparación con las otras categorías, mientras que "Furniture" genera pérdidas.
 
 - **Ventas Totales a lo Largo del Tiempo (2011-2014):**
+
+![Graficos](images/compras_anuales.png)
 
 - **Año 2011: ** $2,355,770 en ventas.
 - **Año 2012:** $2,922,942 en ventas.
