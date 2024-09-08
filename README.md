@@ -186,11 +186,21 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 **1. Agrupación y Distribución de Datos según Variables Categóricas**
 
 - Distribución de productos en categorías y segmentos.
+![Graficos](images/Dist_prod_cat_segmentos.png)
+
 - Total de Ventas y Beneficios por categoría y segmento.
+![Graficos](images/total_vtas_beneficios_cat.png)
+
 - Productos comprados por segmento y categoría.
+![Graficos](images/prod_comprados_segmento_categoria.png)
+
 - Número de productos únicos vendidos por segmento.
+![Graficos](images/prod_unicos_x_Segmento.png)
+
 - Análisis de rentabilidad por producto y categoría.
-Proporción de ventas por categoría y segmento.
+![Graficos](images/prod_unicos_x_Segmento.png)
+
+
 **2. Visualización de Variables Categóricas**
 
 - Comparación de ventas por categoría de productos a lo largo del tiempo.
@@ -205,11 +215,14 @@ Proporción de ventas por categoría y segmento.
 - Promedio de ventas por año y categoría.
 - Promedio de beneficios (Profit) por producto.
 - Promedio del costo de envío por categoría.
+![Graficos](images/Promedio_costo_envio.png)
 - Aplicación de medidas de tendencia central (media, mediana, moda).
 
 **4. Distribución de Datos**
 
 - Distribución del número de pedidos por ciudad y país.
+![Graficos](images/num_pedidos_cd_pais.png)
+
 - Proporción de ventas por categoría y por segmento de producto.
 
 **5. Medidas de Dispersión**
@@ -221,15 +234,22 @@ Proporción de ventas por categoría y segmento.
 
 - Compras realizadas por año y análisis de tendencias.
 - Análisis de productos comprados a lo largo del tiempo.
-- Costos de envío a lo largo del tiempo por ciudad y país.
+![Graficos](images/analisis_prod_comprados_tiempo.png)
+- Costos de envío a lo largo del tiempo.
+![Graficos](images/costos_envios_tiempo.png)
 - Análisis de beneficios por producto y categoría en el tiempo.
 - Segmentación de clientes a lo largo del tiempo.
+![Graficos](images/segmentacion_clientes_tiempo.png)
+
 - Análisis por ubicación (ciudad y país).
+
 - Comparación de modos de envío y su impacto en ventas.
+![Graficos](images/comparacion_modos_envio.png)
 
 ## Recursos
 
 ## Dashboard 
+![Dashboard](images/Dashboard.png)
 Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/SuperstoreDashboard_17257697542560/Dashboard1?publish=yes).
 
 
