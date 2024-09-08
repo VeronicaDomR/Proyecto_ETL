@@ -328,17 +328,6 @@ Los envíos para la categoría de "Office Supplies" en el segmento "Home Office"
 
 El segmento "Consumer" tiene tanto las ventas totales más altas como las ganancuas más elevadas, mientras que "Home Office" tiene las ventas y las ganancias más bajas. Esto sugiere que los consumidores son los principales motores de los ingresos y ganancias en comparación con las empresas.
 
-
-## Recomendaciones
-
-- Fortalecer la presencia en el segmento "Consumer" con estrategias de fidelización y programas de recompensas para mantener y aumentar la participación en este mercado.
-
-- Reducir los costos de envío ofreciendo incentivos para modos de envío más económicos, negociando con proveedores logísticos o considerando alternativas como envíos agrupados.
-
-- Mejorar la rentabilidad de "Furniture" ajustando la estrategia de precios y explorando formas de reducir costos operacionales o de almacenamiento.
-
-- Aprovechar el crecimiento en "Office Supplies" con ofertas especiales para clientes recurrentes y ampliando el inventario de productos en demanda dentro de esta categoría.
-
 ## Conclusiones
 - **El segmento "Consumer" es clave:** El segmento "Consumer" es el principal motor de las ventas y beneficios, representando más de la mitad de las ventas totales. Este segmento debe ser el enfoque principal en futuras estrategias de marketing y ventas.
 
@@ -353,9 +342,18 @@ La categoría de "Office Supplies" es la más rentable y debería seguir siendo 
 
 Los costos de envío han crecido considerablemente, especialmente para envíos de "Second Class" y "Standard Class". La empresa debería explorar opciones para optimizar los costos de envío y negociar mejores tarifas con proveedores logísticos.
 
+## Recomendaciones
 
+- Fortalecer la presencia en el segmento "Consumer" con estrategias de fidelización y programas de recompensas para mantener y aumentar la participación en este mercado.
+
+- Reducir los costos de envío ofreciendo incentivos para modos de envío más económicos, negociando con proveedores logísticos o considerando alternativas como envíos agrupados.
+
+- Mejorar la rentabilidad de "Furniture" ajustando la estrategia de precios y explorando formas de reducir costos operacionales o de almacenamiento.
+
+- Aprovechar el crecimiento en "Office Supplies" con ofertas especiales para clientes recurrentes y ampliando el inventario de productos en demanda dentro de esta categoría.
 
 ## Recursos
 
 ### Presentación
+![Presentacion](images/presentacion.png)
 Puedes acceder a mi presentación clic [aquí](https://www.canva.com/design/DAGQMBA8dyA/0L4dwyiVR9RJXHxNNZle-A/view?utm_content=DAGQMBA8dyA&utm_campaign=designshare&utm_medium=link&utm_source=editor).
