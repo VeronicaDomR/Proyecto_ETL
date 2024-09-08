@@ -250,4 +250,11 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 ![Dashboard](images/Dashboard.png)
 Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/SuperstoreDashboard_17257697542560/Dashboard1?publish=yes).
 
+## Resultados
+
+## Conclusiones
+- **Segmento Consumer** es el más importante en términos de ventas y número de clientes.
+- Las **ganancias y ventas** están en aumento, pero hay que monitorear los costos de envío, ya que aunque parecen estables, cualquier cambio podría impactar negativamente.
+- **Productos y clientes** clave son áreas donde la empresa puede enfocar sus esfuerzos para mantener y aumentar su rentabilidad.
+
 
