@@ -227,6 +227,8 @@ Proporción de ventas por categoría y segmento.
 - Análisis por ubicación (ciudad y país).
 - Comparación de modos de envío y su impacto en ventas.
 
+## Recursos
+
 ## Dashboard 
 Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/SuperstoreDashboard_17257697542560/Dashboard1?publish=yes).
 
