@@ -191,9 +191,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 - Total de Ventas y Beneficios por categoría y segmento.
 ![Graficos](images/total_vtas_beneficios_cat.png)
 
-- Productos comprados por segmento y categoría.
-![Graficos](images/prod_comprados_segmento_categoria.png)
-
 - Número de productos únicos vendidos por segmento.
 ![Graficos](images/prod_unicos_x_Segmento.png)
 
@@ -229,9 +226,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 **6. Análisis Temporal**
 
-- Costos de envío a lo largo del tiempo.
-![Graficos](images/costos_envios_tiempo.png)
-
 - Segmentación de clientes a lo largo del tiempo.
 ![Graficos](images/segmentacion_clientes_tiempo.png)
 
@@ -245,6 +239,10 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/SuperstoreDashboard_17257697542560/Dashboard1?publish=yes).
 
 ## Resultados
+
+**Segmentos de clientes**
+
+El segmento "Consumer" genera la mayor proporción de ventas (51.47%), seguido por "Corporate" (30.25%) y "Home Office" (18.27%). Esto sugiere que la mayoría de las ventas provienen de clientes individuales.
 
 - **Productos Comprados a lo Largo del Tiempo (2011-2014):**
 
@@ -276,6 +274,22 @@ La categoría más rentable es "Office Supplies", con una ganancia significativa
 - **Año 2014:** $3,997,151 en ventas.
 
 Se muestra un incremento constante en las ventas, alcanzando un aumento del 69% de 2011 a 2014.
+
+- **Comparación de Modos de Envío (Ship Cost vs Order Date):**
+
+![Graficos](images/costos_envios_tiempo.png)
+
+A lo largo de los años, se observa un incremento en los costos de envío, independientemente del modo de envío. Sin embargo, el envío "Second Class" y "Standard Class" muestran un aumento más significativo en comparación con "Same Day" y "First Class". El costo de envío más alto en 2014 corresponde a "Second Class", lo que podría deberse a un incremento en la demanda o cambios en los costos operacionales.
+
+- **Distribución de Productos por Categoría y Segmento:**
+
+![Graficos](images/prod_comprados_segmento_categoria.png)
+
+En la categoría "Office Supplies", el segmento "Consumer" representa la mayor proporción de productos vendidos, mientras que en "Technology" y "Furniture", los segmentos están más equilibrados. Esto sugiere que los consumidores tienden a comprar más suministros de oficina en comparación con las empresas, mientras que en tecnología y muebles, tanto consumidores como empresas contribuyen de manera significativa a las ventas.
+
+-**Promedio de Costos de Envío por Segmento y Categoría:**
+
+Los envíos para la categoría de "Office Supplies" en el segmento "Home Office" tienen los costos promedio más altos, mientras que los envíos para "Furniture" en el segmento "Corporate" tienen los costos más bajos. Esto podría estar relacionado con el tamaño y peso de los productos en cada categoría.
 
 ## Conclusiones
 - **Segmento Consumer** es el más importante en términos de ventas y número de clientes.
