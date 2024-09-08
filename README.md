@@ -181,7 +181,7 @@ superstore_supermarket_link: Finalmente, esta tabla de relación puede actualiza
 
 ## Análisis Exploratorio
 
-Este análisis presenta una serie de gráficos y visualizaciones que exploran diferentes aspectos de los datos.
+Este análisis presenta una serie de gráficos y visualizaciones que exploran diferentes aspectos de los datos. A continuación se muestran algunos de los gráficos realizados.
 
 **1. Agrupación y Distribución de Datos según Variables Categóricas**
 
@@ -210,8 +210,7 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 ![Graficos](images/relacion_vtas_Segmento.png)
 
 **3. Medidas de Tendencia Central**
-- Promedio del costo de envío por categoría.
-![Graficos](images/Promedio_costo_envio.png)
+
 - Aplicación de medidas de tendencia central (media, mediana, moda).
 
 **4. Distribución de Datos**
@@ -225,9 +224,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 - Varianza en las ventas por categoría.
 
 **6. Análisis Temporal**
-
-- Segmentación de clientes a lo largo del tiempo.
-![Graficos](images/segmentacion_clientes_tiempo.png)
 
 - Comparación de modos de envío y su impacto en ventas.
 ![Graficos](images/comparacion_modos_envio.png)
@@ -289,11 +285,37 @@ En la categoría "Office Supplies", el segmento "Consumer" representa la mayor p
 
 -**Promedio de Costos de Envío por Segmento y Categoría:**
 
+![Graficos](images/Promedio_costo_envio.png)
+
 Los envíos para la categoría de "Office Supplies" en el segmento "Home Office" tienen los costos promedio más altos, mientras que los envíos para "Furniture" en el segmento "Corporate" tienen los costos más bajos. Esto podría estar relacionado con el tamaño y peso de los productos en cada categoría.
 
+- **Relación entre Ventas Totales y Ganancias por Segmento:**
+
+![Graficos](images/segmentacion_clientes_tiempo.png)
+
+El segmento "Consumer" tiene tanto las ventas totales más altas como las ganancuas más elevadas, mientras que "Home Office" tiene las ventas y las ganancias más bajas. Esto sugiere que los consumidores son los principales motores de los ingresos y ganancias en comparación con las empresas.
+
 ## Conclusiones
-- **Segmento Consumer** es el más importante en términos de ventas y número de clientes.
-- Las **ganancias y ventas** están en aumento, pero hay que monitorear los costos de envío, ya que aunque parecen estables, cualquier cambio podría impactar negativamente.
-- **Productos y clientes** clave son áreas donde la empresa puede enfocar sus esfuerzos para mantener y aumentar su rentabilidad.
+- **El segmento "Consumer" es clave:** El segmento "Consumer" es el principal motor de las ventas y beneficios, representando más de la mitad de las ventas totales. Este segmento debe ser el enfoque principal en futuras estrategias de marketing y ventas.
+
+- **Crecimiento Sostenido en las Ventas:**
+
+Las ventas han mostrado un crecimiento constante del 69% de 2011 a 2014, lo que indica una fuerte demanda y un mercado en expansión. Sin embargo, es crucial continuar monitorizando los costos de envío, ya que estos pueden afectar la rentabilidad si no se gestionan adecuadamente.
+- **Rentabilidad Alta en "Office Supplies", pero Problemas en "Furniture":**
+
+La categoría de "Office Supplies" es la más rentable y debería seguir siendo priorizada. Sin embargo, las pérdidas en "Furniture" requieren una reevaluación, ya que están afectando la rentabilidad general de la empresa. 
+
+- **Aumento en los Costos de Envío:**
+
+Los costos de envío han crecido considerablemente, especialmente para envíos de "Second Class" y "Standard Class". La empresa debería explorar opciones para optimizar los costos de envío y negociar mejores tarifas con proveedores logísticos.
 
 
+## Recomendaciones
+
+- Fortalecer la presencia en el segmento "Consumer" con estrategias de fidelización y programas de recompensas para mantener y aumentar la participación en este mercado.
+
+- Reducir los costos de envío ofreciendo incentivos para modos de envío más económicos, negociando con proveedores logísticos o considerando alternativas como envíos agrupados.
+
+- Mejorar la rentabilidad de "Furniture" ajustando la estrategia de precios y explorando formas de reducir costos operacionales o de almacenamiento.
+
+- Aprovechar el crecimiento en "Office Supplies" con ofertas especiales para clientes recurrentes y ampliando el inventario de productos en demanda dentro de esta categoría.
