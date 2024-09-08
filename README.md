@@ -205,6 +205,8 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 - Comparación de ventas por categoría de productos a lo largo del tiempo.
 - Evolución de ventas por categoría.
+![Graficos](images/evolucion_vtas_cat.png)
+
 - Distribución de ventas por modo de envío y segmento.
 - Número de clientes únicos por ciudad y país.
 - Intensidad de ventas por ciudad.
@@ -220,8 +222,8 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 **4. Distribución de Datos**
 
-- Distribución del número de pedidos por ciudad y país.
-![Graficos](images/num_pedidos_cd_pais.png)
+- Distribución del número de pedidos.
+![Graficos](images/dist_num_pedidos.png)
 
 - Proporción de ventas por categoría y por segmento de producto.
 
@@ -232,11 +234,15 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 **6. Análisis Temporal**
 
-- Compras realizadas por año y análisis de tendencias.
+- Compras realizadas por año.
+![Graficos](images/compras_anuales.png)
+
 - Análisis de productos comprados a lo largo del tiempo.
 ![Graficos](images/analisis_prod_comprados_tiempo.png)
+
 - Costos de envío a lo largo del tiempo.
 ![Graficos](images/costos_envios_tiempo.png)
+
 - Análisis de beneficios por producto y categoría en el tiempo.
 - Segmentación de clientes a lo largo del tiempo.
 ![Graficos](images/segmentacion_clientes_tiempo.png)
