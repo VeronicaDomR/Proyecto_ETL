@@ -177,10 +177,12 @@ La columna Headquarters en la tabla supermarket_chains fue renombrada a countrie
    - Dimensión Ubicación
    - Dimensión Tiempo
    - Dimensión Envío
+
 3. Luego:
-   - Tabla de Hechos
-4. Finalmente:
    - Tabla de Relación (superstore_supermarket_link)
+
+4. Finalmente:
+   - Tabla de Hechos
 
 Se actualizan primero las dimensiones que no dependen de otras tablas
 
@@ -260,8 +262,6 @@ Este análisis presenta una serie de gráficos y visualizaciones que exploran di
 
 - Comparación de modos de envío y su impacto en ventas.
 ![Graficos](images/comparacion_modos_envio.png)
-
-## Recursos
 
 ## Dashboard 
 ![Dashboard](images/Dashboard.png)
@@ -352,3 +352,8 @@ Los costos de envío han crecido considerablemente, especialmente para envíos d
 - Mejorar la rentabilidad de "Furniture" ajustando la estrategia de precios y explorando formas de reducir costos operacionales o de almacenamiento.
 
 - Aprovechar el crecimiento en "Office Supplies" con ofertas especiales para clientes recurrentes y ampliando el inventario de productos en demanda dentro de esta categoría.
+
+## Recursos
+
+### Presentación
+Puedes acceder a mi presentación clic [aquí](https://www.canva.com/design/DAGQMBA8dyA/0L4dwyiVR9RJXHxNNZle-A/view?utm_content=DAGQMBA8dyA&utm_campaign=designshare&utm_medium=link&utm_source=editor).
