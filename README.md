@@ -179,6 +179,55 @@ superstore_supermarket_link: Finalmente, esta tabla de relación puede actualiza
 4. Relación (BigQuery) -> Composer, actualiza las tablas de relación en BigQuery
 5. Cloud Scheduler (Actualización periódica) -> Trigger, programar las actualizaciones para las tablas.
 
+## Análisis Exploratorio
 
+Este análisis presenta una serie de gráficos y visualizaciones que exploran diferentes aspectos de los datos.
+
+**1. Agrupación y Distribución de Datos según Variables Categóricas**
+
+- Distribución de productos en categorías y segmentos.
+- Total de Ventas y Beneficios por categoría y segmento.
+- Productos comprados por segmento y categoría.
+- Número de productos únicos vendidos por segmento.
+- Análisis de rentabilidad por producto y categoría.
+Proporción de ventas por categoría y segmento.
+**2. Visualización de Variables Categóricas**
+
+- Comparación de ventas por categoría de productos a lo largo del tiempo.
+- Evolución de ventas por categoría.
+- Distribución de ventas por modo de envío y segmento.
+- Número de clientes únicos por ciudad y país.
+- Intensidad de ventas por ciudad.
+- Relación entre ventas y ganancias por segmento.
+
+**3. Medidas de Tendencia Central**
+- Promedio de productos comprados por categoría y segmento.
+- Promedio de ventas por año y categoría.
+- Promedio de beneficios (Profit) por producto.
+- Promedio del costo de envío por categoría.
+- Aplicación de medidas de tendencia central (media, mediana, moda).
+
+**4. Distribución de Datos**
+
+- Distribución del número de pedidos por ciudad y país.
+- Proporción de ventas por categoría y por segmento de producto.
+
+**5. Medidas de Dispersión**
+
+- Cálculo de desviación estándar de las ventas.
+- Varianza en las ventas por categoría.
+
+**6. Análisis Temporal**
+
+- Compras realizadas por año y análisis de tendencias.
+- Análisis de productos comprados a lo largo del tiempo.
+- Costos de envío a lo largo del tiempo por ciudad y país.
+- Análisis de beneficios por producto y categoría en el tiempo.
+- Segmentación de clientes a lo largo del tiempo.
+- Análisis por ubicación (ciudad y país).
+- Comparación de modos de envío y su impacto en ventas.
+
+## Dashboard 
+Puedes acceder a mi dashboard en Tableu haciendo clic [aquí](https://public.tableau.com/app/profile/veronica.yadira.dom.nguez/viz/SuperstoreDashboard_17257697542560/Dashboard1?publish=yes).
 
 
