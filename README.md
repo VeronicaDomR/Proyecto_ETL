@@ -355,6 +355,11 @@ Los costos de envío han crecido considerablemente, especialmente para envíos d
 ## Recursos
 
 ### Presentación
+
 ![Presentacion](images/presentacion.png)
 
 Puedes acceder a mi presentación clic [aquí](https://www.canva.com/design/DAGQMBA8dyA/0L4dwyiVR9RJXHxNNZle-A/view?utm_content=DAGQMBA8dyA&utm_campaign=designshare&utm_medium=link&utm_source=editor).
+
+Video de la presentación
+Puedes visualizar mi video de la presentación en Loom haciendo clic [aquí](https://www.loom.com/share/afad038c522743ecbb126ffdad31e9a8?sid=b92a3800-59ca-431c-8c2f-1fdbafbb3cba).
+
