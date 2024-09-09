@@ -356,4 +356,5 @@ Los costos de envío han crecido considerablemente, especialmente para envíos d
 
 ### Presentación
 ![Presentacion](images/presentacion.png)
+
 Puedes acceder a mi presentación clic [aquí](https://www.canva.com/design/DAGQMBA8dyA/0L4dwyiVR9RJXHxNNZle-A/view?utm_content=DAGQMBA8dyA&utm_campaign=designshare&utm_medium=link&utm_source=editor).
