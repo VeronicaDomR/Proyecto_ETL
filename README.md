@@ -3,8 +3,6 @@ Proyecto Profundización: Estructura de datos
 
 ## Índice
 
-## Índice
-
 1. [Objetivo](#objetivo)
 2. [Herramientas y Lenguajes](#herramientas-y-lenguajes)
 3. [Revisión de Datos](#revisión-de-datos)
